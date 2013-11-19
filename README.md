@@ -9,19 +9,19 @@ a single argument - the url that the browser should open.
 
 **This plugin ships with Karma by default, so you don't need to install it, it should just work ;-)**
 
-The easiest way is to keep `karma-scripts-launcher` as a devDependency in your `package.json`.
+The easiest way is to keep `karma-script-launcher` as a devDependency in your `package.json`.
 ```json
 {
   "devDependencies": {
     "karma": "~0.10",
-    "karma-scripts-launcher": "~0.1"
+    "karma-script-launcher": "~0.1"
   }
 }
 ```
 
 You can simple do it by:
 ```bash
-npm install karma-scripts-launcher --save-dev
+npm install karma-script-launcher --save-dev
 ```
 
 ## Configuration
